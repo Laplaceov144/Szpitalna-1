@@ -1,5 +1,3 @@
-import selector from '.utils/functions.js';
-
 const container = document.querySelector('.events-center');
 const url = './utils/database.json';
 const hall = document.querySelector('.hall');
