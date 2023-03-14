@@ -392,9 +392,9 @@ event subpage
   object-fit: contain;
 }
 .fb-icon {
-  width: 4.7rem;
+  width: 4.5rem;
   object-fit: contain;
-  transform: translateY(0.5rem);
+  transform: translateY(0.25rem);
 }
 
 
