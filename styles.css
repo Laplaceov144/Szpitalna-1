@@ -290,7 +290,7 @@ input.onclick {
   margin-top: 20px;
   margin-left: -100px;
   transform: translateX(15px) translateY(-5px) scale(4) rotateZ(-10deg) skew(70deg);
-  opacity: 0;
+  opacity: 1;
 }
 input.onclick:hover {
   cursor: pointer;
