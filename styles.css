@@ -519,12 +519,9 @@ input.onclick:hover {
   .crew-list h5 {
     font-size: 1.5rem;
   }
-  .btn {
+  .btn, .scroll {
     padding: 1.65rem 3.2rem;
   }
-  .scroll { 
-    font-size: 1rem;
-  } 
   .hall, .input-form {
     display: none;
   }
