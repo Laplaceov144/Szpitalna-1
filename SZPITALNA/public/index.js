@@ -24,7 +24,7 @@ const displayEvents = (item) => {
     const weekday = event.weekday;
     const month = event.month;
     const title = event.title;   
-    return `<a class="single-event" href="./public/event.html?id=${day}">
+    return `<a class="single-event" href="event.html?id=${day}">
               <div>
                 <h4 class="event-date">${weekday}, ${day}/${month}</h4>
                 <h2>${title}</h2>
