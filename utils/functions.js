@@ -11,7 +11,7 @@ export const fetchData = = async () => {
   }
 };
 
-export const dynamicTile = lineup.map((item) => {
+export const dynamicTile(arr) = arr.map((item) => {
     
     return `<li><a class="artist-img" href="${item.img}" target="_blank"><img src="${item.img}"></a>
     <a class="artist-nick">${item.nickname}</a>
