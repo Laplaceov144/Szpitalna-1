@@ -1,4 +1,5 @@
-import selector, fetchData from '.utils/functions.js';
+import selector from '.utils/functions.js';
+import fetchData from '.utils/functions.js';
 
 const container = document.querySelector('.events-center');
 const url = './utils/database.json';
