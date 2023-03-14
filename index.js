@@ -5,7 +5,7 @@ const form = document.querySelector('.input-form');
 const searchInput = document.querySelector('.search-input');
 
 // Fetching data from database.json
-const fetchData = = async () => {
+const fetchEvents = = async () => {
   container.innerHTML = '<div class="loading"></div>';
   try {
     const resp = await fetch(url);
@@ -91,7 +91,7 @@ const displayArtists = (artists) => {
 // The actual final execution of...everything here
 let data;
 const start = async () => {
-data = await fetchData();
+data = await fetchEvents();
 displayEvents(data);
 hallOfFame(data);
 return data;
