@@ -490,7 +490,8 @@ input.onclick:hover {
     background-color:  rgb(46, 38, 28);
   }
   .events-center {
-    margin-left: -1rem;
+    margin-left: 1rem;
+  }
   .events-container {
     grid-template-columns: 10rem;
   }
