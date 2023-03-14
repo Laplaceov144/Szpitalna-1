@@ -325,8 +325,10 @@ event subpage
   width: 1200px;
 }
 .lineup {
-  flex-direction: column;
-  column-count: 2;
+/*   flex-direction: column;
+  column-count: 2; */
+  display: grid;
+  grid-template-columns: 20rem 20rem;
   column-gap: 25%;
   width: 1170px;
   list-style: none;
