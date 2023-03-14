@@ -490,7 +490,7 @@ input.onclick:hover {
     background-color:  rgb(46, 38, 28);
   }
   .events-container {
-    margin-left: -5rem;
+    margin-left: -4rem;
     grid-template-columns: 10rem;
   }
   .single-event {
