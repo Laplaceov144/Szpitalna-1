@@ -35,7 +35,7 @@ const displayResidents = (arr) => {
             <div class="links">
             <a target="_blank" class="link" href="${item.sc}"><img class="icon"  src="${item.SCicon}" 
             alt="" onerror='this.remove()'></a>
-            <a target="_blank" class="link" href="${item.fb}"><img class="icon fb-icon"  src="${item.FBicon}" 
+            <a target="_blank" class="link" href="${item.fb}"><img class="fb-icon"  src="${item.FBicon}" 
             alt="" onerror='this.remove()'></a>
             <a target="_blank" class="link" href="${item.ig}"><img class="icon"  src="${item.IGicon}" 
             alt="" onerror='this.remove()'></a>
