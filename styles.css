@@ -260,6 +260,9 @@ Hall of Fame
   margin-bottom: 130px;
   display: inline-block;
 }
+.dropdown {
+  opacity: 0;
+}
 .hall-nickname {
   display: inline-block;
   font-size: 1.3rem;
@@ -283,6 +286,19 @@ Hall of Fame
   opacity: 1;
   transition: 550ms ease;
 }
+input.onclick {
+  margin-top: 20px;
+  margin-left: -100px;
+  transform: translateX(15px) translateY(-5px) scale(4) rotateZ(-10deg) skew(70deg);
+  opacity: 0;
+}
+input.onclick:hover {
+  cursor: pointer;
+}
+.onclick:checked ~ .dropdown {
+  opacity: 1;
+  transition: 550ms ease;
+} 
 
 
 
@@ -350,9 +366,6 @@ event subpage
   padding: 10px;
   border-radius: 10%;
 }
-.dropdown {
-  opacity: 1;
-}
 .small-bio {
   display: inline-block;
   font-size: 0.7rem;
@@ -381,21 +394,6 @@ event subpage
 .fb-icon {
   width: 4.7rem;
 }
-
-input.onclick {
-  margin-top: 20px;
-  margin-left: -100px;
-  transform: translateX(15px) translateY(-5px) scale(4) rotateZ(-10deg) skew(70deg);
-  opacity: 0;
-}
-input.onclick:hover {
-  cursor: pointer;
-}
-.onclick:checked ~ .dropdown {
-  opacity: 1;
-  transition: 550ms ease;
-} 
-
 
 
 /* Residents */
