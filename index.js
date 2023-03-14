@@ -5,7 +5,7 @@ const form = document.querySelector('.input-form');
 const searchInput = document.querySelector('.search-input');
 
 // Fetching data from database.json
-const fetchEvents = = async () => {
+const fetchEvents = async () => {
   container.innerHTML = '<div class="loading"></div>';
   try {
     const resp = await fetch(url);
