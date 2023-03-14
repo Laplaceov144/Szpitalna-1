@@ -392,7 +392,8 @@ event subpage
   object-fit: contain;
 }
 .fb-icon {
-  width: 5rem;
+  width: 4.7rem;
+  object-fit: contain;
 }
 
 
