@@ -499,6 +499,9 @@ input.onclick:hover {
     width: 20rem;
     height: 12rem;
   }
+  .single-event h2 {
+    font-size: 2rem;
+  }    
   .event-nav .btn {
     padding: 1.65rem 3.5rem;
   }
