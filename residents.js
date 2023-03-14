@@ -1,10 +1,8 @@
-import selector from '.utils/functions.js';
-
 const url = './utils/database.json';
-const container = selector('.residents-container');
+const container = document.querySelector('.residents-container');
 
 // Fetching data from database.json
-const fetchData = = async () => {
+const fetchArtists = async () => {
   container.innerHTML = '<div class="loading"></div>';
   try {
     const resp = await fetch(url);
@@ -53,7 +51,7 @@ const displayResidents = (arr) => {
 
 // Inserting everything dynamically in 'residents.html'
 const start = async () => {
-    const data = await fetchData();
+    const data = await fetchArtists();
     displayResidents(residents(data));    
 };
   start();
