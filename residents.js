@@ -30,7 +30,6 @@ const displayResidents = (arr) => {
     const residents = arr.map((item) => {
 
     return `<li><a class="artist-img" href="${item.img}" target="_blank"><img src="${item.img}"></a>
-            <input class="onclick" type="radio" name="test" value="${item}">
             <a class="artist-nick">${item.nickname}</a>
             <div class="dropdown"><p class="small-bio">${item.bio} </p>
             <div class="links">
