@@ -279,10 +279,10 @@ Hall of Fame
 .hall-results .links {
   margin-top: 35px;
 }
-.hall-results .link {
+.link {
   opacity: 0.5;
 }
-.hall-results .link:hover {
+.link:hover {
   opacity: 1;
   transition: 550ms ease;
 }
@@ -392,7 +392,7 @@ event subpage
   object-fit: contain;
 }
 .fb-icon {
-  width: 4.7rem;
+  width: 5rem;
 }
 
 
