@@ -30,7 +30,7 @@ const displayEvent = (event) => {
   tabTitle.innerText = title;
   const description = event.description;
   const lineup = event.lineup;
-  const artistsList = dynamicTile(item);
+  const artistsList = dynamicTile;
   
   title.innerText = `${title}`;
   eventDOM.innerHTML = `<div class="event-wrapper">
