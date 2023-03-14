@@ -1,9 +1,20 @@
 import selector from '.utils/functions.js';
-import fetchData from '.utils/functions.js';
 import dynamicTile from '.utils/functions.js';
 
 const url = './utils/database.json';
 const container = selector('.residents-container');
+
+// Fetching data from database.json
+const fetchData = = async () => {
+  container.innerHTML = '<div class="loading"></div>';
+  try {
+    const resp = await fetch(url);
+    const data = await resp.json();
+    return data;
+  } catch (error) {
+    container.innerHTML = '<p class="error">there was an error</p>';
+  }
+};
 
 // Filtering resident DJs
 const residents = (arr) => {
