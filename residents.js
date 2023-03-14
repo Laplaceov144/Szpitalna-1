@@ -16,9 +16,8 @@ const residents = (arr) => {
 
 // Displaying residents' info
 const displayResidents = (arr) => {
-
-    const residents = arr.map((item) => {
-        return dynamicTile(item);
+    
+    const residents = dynamicTile(item);
 
   container.innerHTML = `${residents}`;
 
