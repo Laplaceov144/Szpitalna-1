@@ -27,4 +27,4 @@ export const dynamicTile(arr) = arr.map((item) => {
     alt="" onerror='this.remove()'></a>
     </div></div>
     </li>`;
-  }).join(' ');
+  })
