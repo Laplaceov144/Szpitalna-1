@@ -1,16 +1,5 @@
 export const selector(qs) = document.querySelector(qs);
 
-export const fetchData = = async () => {
-  container.innerHTML = '<div class="loading"></div>';
-  try {
-    const resp = await fetch(url);
-    const data = await resp.json();
-    return data;
-  } catch (error) {
-    container.innerHTML = '<p class="error">there was an error</p>';
-  }
-};
-
 export const dynamicTile(arr) = arr.map((item) => {
     
     return `<li><a class="artist-img" href="${item.img}" target="_blank"><img src="${item.img}"></a>
