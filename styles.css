@@ -370,7 +370,7 @@ event subpage
   display: inline-block;
   font-size: 0.7rem;
   padding-top: 14px;
-  max-width: 20em;
+  max-width: 25em;
   opacity: 0.8;
   color: rgb(217, 180, 132);
   transform: translateY(-10px);
