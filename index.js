@@ -1,11 +1,22 @@
 import selector from '.utils/functions.js';
-import fetchData from '.utils/functions.js';
 
 const container = document.querySelector('.events-center');
 const url = './utils/database.json';
 const hall = document.querySelector('.hall');
 const form = document.querySelector('.input-form');
 const searchInput = document.querySelector('.search-input');
+
+// Fetching data from database.json
+const fetchData = = async () => {
+  container.innerHTML = '<div class="loading"></div>';
+  try {
+    const resp = await fetch(url);
+    const data = await resp.json();
+    return data;
+  } catch (error) {
+    container.innerHTML = '<p class="error">there was an error</p>';
+  }
+};
 
 
 // Default HTML code added dynamically
