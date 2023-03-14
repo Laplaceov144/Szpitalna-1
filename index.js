@@ -1,21 +1,11 @@
+import selector, fetchData from '.utils/functions.js';
+
 const container = document.querySelector('.events-center');
 const url = './utils/database.json';
 const hall = document.querySelector('.hall');
 const form = document.querySelector('.input-form');
 const searchInput = document.querySelector('.search-input');
 
-
-// Fetching data from JSON file
-const fetchEvents = async () => {
-  container.innerHTML = '<div class="loading"></div>';
-  try {
-    const resp = await fetch(url);
-    const data = await resp.json();
-    return data;
-  } catch (error) {
-    container.innerHTML = '<p class="error">there was an error</p>';
-  }
-};
 
 // Default HTML code added dynamically
 const displayEvents = (item) => {
@@ -91,7 +81,7 @@ const displayArtists = (artists) => {
 // The actual final execution of...everything here
 let data;
 const start = async () => {
-data = await fetchEvents();
+data = await fetchData();
 displayEvents(data);
 hallOfFame(data);
 return data;
