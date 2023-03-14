@@ -11,7 +11,7 @@ export const fetchData = = async () => {
   }
 };
 
-export const dynamicTile = `<li><a class="artist-img" href="${item.img}" target="_blank"><img src="${item.img}"></a>
+export const dynamicTile(item) = `<li><a class="artist-img" href="${item.img}" target="_blank"><img src="${item.img}"></a>
             <a class="artist-nick">${item.nickname}</a>
             <div class="artist-info"><p class="small-bio">${item.bio} </p>
             <div class="links">
