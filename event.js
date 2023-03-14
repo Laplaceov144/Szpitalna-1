@@ -32,7 +32,6 @@ const displayEvent = (event) => {
     
     return `<li><a class="artist-img" href="${item.img}" target="_blank"><img src="${item.img}"></a>
     <a class="artist-nick">${item.nickname}</a>
-    <input class="onclick" type="radio" name="test" value="${item}">
     <div class="dropdown"><p class="small-bio">${item.bio} </p>
     <div class="links">
     <a target="_blank" class="link" href="${item.sc}"><img class="icon"  src="${item.SCicon}" 
