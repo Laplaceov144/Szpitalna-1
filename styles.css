@@ -496,8 +496,8 @@ input.onclick:hover {
     grid-template-columns: 10rem;
   }
   .single-event {
-    width: 24rem;
-    height: 15rem;
+    width: 20rem;
+    height: 12rem;
   }
   .event-nav .btn {
     padding: 1.65rem 3.5rem;
