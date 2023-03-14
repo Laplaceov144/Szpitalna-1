@@ -1,5 +1,5 @@
 const container = document.querySelector('.events-center');
-const url = '.public/utils/database.json';
+const url = './utils/database.json';
 const hall = document.querySelector('.hall');
 const form = document.querySelector('.input-form');
 const searchInput = document.querySelector('.search-input');
