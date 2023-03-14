@@ -522,6 +522,9 @@ input.onclick:hover {
   .btn {
     padding: 1.65rem 3.2rem;
   }
+  .scroll { 
+    font-size: 1rem;
+  } 
   .hall, .input-form {
     display: none;
   }
