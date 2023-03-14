@@ -350,7 +350,7 @@ event subpage
   list-style: none;
 }
 .lineup li {
-  max-height: 500px;
+  max-height: 600px;
   display: inline-block;
 }
 .lineup-header {
