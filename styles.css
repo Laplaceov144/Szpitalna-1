@@ -489,8 +489,9 @@ input.onclick:hover {
   .navbar {
     background-color:  rgb(46, 38, 28);
   }
-  .events-container {
+  .events-center {
     margin-left: -4rem;
+  .events-container {
     grid-template-columns: 10rem;
   }
   .single-event {
