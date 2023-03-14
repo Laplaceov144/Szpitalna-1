@@ -147,7 +147,7 @@ ul {
   border: transparent;
   border-radius: var(--borderRadius);
   letter-spacing: var(--letterSpacing);
-  padding: 1.7rem 5rem;
+  padding: 1.7rem 6rem;
   box-shadow: var(--shadow-1);
   transition: var(--transition);
   display: inline-block;
