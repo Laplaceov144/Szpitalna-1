@@ -1,4 +1,6 @@
-import selector, fetchData, dynamicTile from '.utils/functions.js';
+import selector from '.utils/functions.js';
+import fetchData from '.utils/functions.js';
+import dynamicTile from '.utils/functions.js';
 
 const url = './utils/database.json';
 const container = selector('.residents-container');
