@@ -394,6 +394,7 @@ event subpage
 .fb-icon {
   width: 4.7rem;
   object-fit: contain;
+  transform: translateY(1rem);
 }
 
 
