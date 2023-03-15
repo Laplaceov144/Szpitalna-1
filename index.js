@@ -66,10 +66,10 @@ const displayArtists = (artists) => {
   const artistsList = artists.map((item) => {
 
   return `<li><a class="artist-img" href="${item.img}" target="_blank"><img src="${item.img}"></a>
-  <span class="hall-nickname"</span>
+  <span class="hall-nickname">${item.nickname}</span>
   <input class="onclick" type="radio" name="test" value="${item}">
   <div class="dropdown">
-  <p class="small-bio">${item.bio} </p>
+  <p class="small-bio">${item.bio}</p>
   <div class="links">
   <a target="_blank" class="link" href="${item.sc}"><img class="icon"  src="${item.SCicon}" 
   alt="" onerror='this.remove()'></a>
