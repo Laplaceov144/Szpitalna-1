@@ -66,8 +66,8 @@ const displayArtists = (artists) => {
   const artistsList = artists.map((item) => {
 
   return `<li><a class="artist-img" href="${item.img}" target="_blank"><img src="${item.img}"></a>
-  <span class="hall-nickname">${item.nickname}</span>
- 
+  <span class="hall-nickname" onclick="displayInfo()">${item.nickname}</span>
+  
   <div class="dropdown">
   <p class="small-bio">${item.bio} </p>
   <div class="links">
@@ -85,14 +85,13 @@ const displayArtists = (artists) => {
   }).join(' ');
 
   container.innerHTML = `<ul class="hall-results">${artistsList}</ul>
-  <script>
-    const nickClicks = container.querySelectorAll('.hall-nickname');
-    const dropdown = container.querySelectorAll('.dropdown');
-    nickClicks.addEventListener('click', function(){
-      dropdown.style.opacity = '1';
-    });
-    </script>`;
-};
+                         <script>
+                          const dropdown = this.querySelectorAll('.dropdown');
+                            function displayInfo(){
+                              dropdown.style.opacity = '1';
+                            };
+                         </script>`;
+  };
 
 
 // The actual final execution of...everything here
