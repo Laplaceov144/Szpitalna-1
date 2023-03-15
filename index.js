@@ -67,7 +67,7 @@ const displayArtists = (artists) => {
 
   return `<li><a class="artist-img" href="${item.img}" target="_blank"><img src="${item.img}"></a>
   <span class="hall-nickname">${item.nickname}</span>
-  // <input class="onclick" type="radio" name="test" value="${item}">
+ 
   <div class="dropdown">
   <p class="small-bio">${item.bio} </p>
   <div class="links">
