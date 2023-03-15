@@ -86,7 +86,7 @@ const displayArtists = (artists) => {
 
   container.innerHTML = `<ul class="hall-results">${artistsList}</ul>
                          <script>
-                          const dropdown = this.querySelectorAll('.dropdown');
+                          const dropdown = container.querySelectorAll('.dropdown');
                             function displayInfo(){
                               dropdown.style.opacity = '1';
                             };
