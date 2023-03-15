@@ -66,11 +66,8 @@ const displayArtists = (artists) => {
   const artistsList = artists.map((item) => {
 
   return `<li><a class="artist-img" href="${item.img}" target="_blank"><img src="${item.img}"></a>
-  <span class="hall-nickname" onclick="displayInfo(){
-                              const dropdown = container.querySelectorAll('.dropdown');
-                              dropdown.style.opacity = '1';
-                            }">${item.nickname}</span>
-  
+  <span class="hall-nickname"</span>
+  <input class="onclick" type="radio" name="test" value="${item}">
   <div class="dropdown">
   <p class="small-bio">${item.bio} </p>
   <div class="links">
