@@ -1,0 +1,327 @@
+[
+    {
+        "nickname":"WestBam",
+        "img":"https://i.discogs.com/06ZzbxmISVs0Rva4g8BMxnIwY33XLChMzvoJO5SSjPc/rs:fit/g:sm/q:40/h:300/w:300/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTYwOTIt/MTQ5OTYzNzIwNC00/NDM2LmpwZWc.jpeg",
+        "bio":"Maximilian Lenz wurde 1965 in Münster geboren. Seine Eltern waren Künstler und Hippies, die ihre Kinder antiautoritär erzogen. Die Familie wohnte auf einem Kotten im Umland Münsters.",
+        "SCicon":"./utils/img/sc.png",
+        "FBicon":"./utils/img/fb.png",
+        "IGicon":"./utils/img/ig.png",
+        "RAicon":"./utils/img/ra.png",
+        "sc":"https://soundcloud.com/westbam_soundcloud",
+        "fb":"https://www.facebook.com/westbam",
+        "ig":"https://www.instagram.com/westbam_ml",
+        "ra":"https://ra.co/dj/westbam"
+     },
+     {
+        "resident":"true",
+        "nickname":"Kubok",
+        "img":"https://scontent-waw1-1.xx.fbcdn.net/v/t39.30808-6/311313697_222244270130713_7956869597526301597_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=fO1Q5FN3IG4AX90Gx6z&_nc_oc=AQl7lYNdp1DAeJHJkH8y21jD90v85kMPMnOutCiXEcMRA6v-StjO2CBvFWCqMD9iA-8&_nc_ht=scontent-waw1-1.xx&oh=00_AfAV9JGxjbHU_4jiAj5wd-UdeANYj-s0KNE0KE5gQ8aYiA&oe=64106552",
+        "bio":"As Tobikz says: 'This guy spreading gossip about me to whole Poland, doing everything to block me from scene and also doing everything to break my own parties. He dont know me personally, I never seen him IRL. Don't trust him, everything what you can hear about me from this guy, have nothing common with reality.'",
+        "SCicon":"./utils/img/sc.png",
+        "FBicon":"./utils/img/fb.png",
+        "IGicon":"./utils/img/ig.png",
+        "RAicon":"./utils/img/ra.png",
+        "sc":"https://soundcloud.com/jakub-kubok",
+        "fb":"https://www.facebook.com/kubokdj",
+        "ig":"https://www.instagram.com/kubok_dj",
+        "ra":"https://ra.co/dj/kubok"
+     },
+     {
+        "nickname":"Fixmer",
+        "img":"https://i.discogs.com/TZM6840sd3PaBSkgw-R8dWNZqKNP85YQnq5uUFx5BkQ/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTM4ODUt/MTQ4Njk4MjMxOC04/MzA4LmpwZWc.jpeg",
+        "bio":"Originaire de Tourcoing, située près de la frontière Belge, il fut pendant son adolescence bercé par les courants musicaux ayant des sons synthétiques que l'on retrouve dans l'Electronic Body Music et la New wave. De par sa proximité avec la Belgique, ce style de musique était très populaire dans le Nord de la France.",
+        "FBicon":"./utils/img/fb.png",
+        "fb":"https://www.facebook.com/terencefixmerofficial"
+     },
+     {
+        "nickname":"Olivia",
+        "img":"https://scontent-waw1-1.xx.fbcdn.net/v/t39.30808-6/276150634_481777883447101_5135614618768951587_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=SRhkqDDgWbUAX-6dvnv&_nc_ht=scontent-waw1-1.xx&oh=00_AfD_wvGKN4imVh53CSyIDGJZxbFvu5TuHCJxmjOqDLYNUA&oe=6415511C",
+        "bio":"Olivia is into: vinyl, cosmos, retro robots, science fiction, mountains, sounds of acid, house, tech.",
+        "SCicon":"./utils/img/sc.png",
+        "FBicon":"./utils/img/fb.png",
+        "sc":"https://soundcloud.com/olivia-ungaro",
+        "fb":"https://www.facebook.com/olivia.ungaro"
+     },
+     {
+        "nickname":"Chino",
+        "img":"https://scontent-waw1-1.xx.fbcdn.net/v/t39.30808-6/314383217_507820731332568_8756934141566751397_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=730e14&_nc_ohc=DVFYCp4k0UIAX9Hi10p&_nc_ht=scontent-waw1-1.xx&oh=00_AfBqX0eZn_YbRBEz_jZ5YjqbSIWa3eKYm9RIT-cPJgidig&oe=64136B07",
+        "bio":"Producent i performer muzyczny, grafik. Miłośnik gór. Współtworzy od lat Radar - dawniej klub, obecnie kolektyw oraz cykl imprez. W swojej karierze odwiedził m.in. - Tadzykistan, Gruzję, Ukrainę, Izrael oraz Niemcy",
+        "SCicon":"./utils/img/sc.png",
+        "FBicon":"./utils/img/fb.png",
+        "IGicon":"./utils/img/ig.png",
+        "RAicon":"./utils/img/ra.png",
+        "sc":"https://soundcloud.com/chinoradar",
+        "fb":"https://www.facebook.com/101chino",
+        "ig":"https://www.instagram.com/chinoarturoles",
+        "ra":"https://ra.co/dj/chino-pl"
+     },
+     {
+        "nickname":"Szmal",
+        "img":"https://i1.sndcdn.com/avatars-wOSSSRJZnrDKIGrM-xNZk6w-t500x500.jpg",
+        "bio":"DJ, promotor, barman, plotkarz, koński jeździec.",
+        "SCicon":"./utils/img/sc.png",
+        "FBicon":"./utils/img/fb.png",
+        "IGicon":"./utils/img/ig.png",
+        "sc":"https://soundcloud.com/szmal",
+        "fb":"https://www.facebook.com/nurt.festiwal",
+        "ig":"https://www.instagram.com/to_szmal"
+     },
+     {
+        "resident":"true",
+        "nickname":"Kuba Château",
+        "img":"https://scontent-waw1-1.xx.fbcdn.net/v/t1.6435-9/36939235_235348717079643_3275849179603140608_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=cdbe9c&_nc_ohc=qHTzZoKpkHUAX-1bjKn&_nc_oc=AQnUYuFgZJIZJ1Pdop2jaHngxaAhT5uGuU4a9fdiK-tFInD2ag31W0u2K7sVWU_lisk&_nc_ht=scontent-waw1-1.xx&oh=00_AfB1ASlVb6qPXpE327PeydS3Smb_QNWvzyStx-OqoNGDLQ&oe=643271FD",
+        "bio":"Nous tenons ces vérités pour évidentes, que tous les hommes sont créés égaux, qu'ils sont dotés par leur Créateur de certains Droits inaliénables, parmi lesquels figurent la Vie, la Liberté et la poursuite du Bonheur.",
+        "SCicon":"./utils/img/sc.png",
+        "IGicon":"./utils/img/ig.png",
+        "sc":"https://soundcloud.com/kubachateau",
+        "ig":"https://www.instagram.com/kubachateau"
+     },
+     {
+        "resident":"true",
+        "nickname":"Ultraviolent",
+        "img":"https://scontent-waw1-1.xx.fbcdn.net/v/t39.30808-6/270292000_106397648585428_8311194083878308469_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=0ag6QPZk8noAX8MHVe1&_nc_ht=scontent-waw1-1.xx&oh=00_AfBqAqXfEKkZ7UBdUPl22tJC9NXUq_QaiI3RG61U5BZjdQ&oe=641089F9",
+        "bio":"Skarbnica wiedzy bezuzytecznej jak i nietuzinkowej selekcji. Preferuje electro (które moze dla niepoznaki udawać w jego wykonananiu techno), wszelakie odmiany muzyki klubowej zainspirowanej industrialem, synthpopem i italo - od EBMowych 'czołgów' i dark disco w 112 BPM az po szybkie i pędzące industrialowe techno w wydaniu Crystal Geometry czy I Hate Models - a takze okazjonalnie - organiczne disco i oriental house.",
+        "SCicon":"./utils/img/sc.png",
+        "FBicon":"./utils/img/fb.png",
+        "IGicon":"./utils/img/ig.png",
+        "sc":"https://soundcloud.com/tomasz-wyszomirski-1",
+        "fb":"https://www.facebook.com/UltraviolentPL",
+        "ig":"https://www.instagram.com/laplaceov144"
+     },
+     {
+        "nickname":"Goldie",
+        "img":"https://scontent-waw1-1.xx.fbcdn.net/v/t1.6435-9/155102228_3691748917546298_1440650951650083792_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=mliah79lnrYAX8lMNJL&_nc_ht=scontent-waw1-1.xx&oh=00_AfBsIKYmwBaCxtFBFUgab5OPQ7-5l_YgnZMq4zpIvlHd6A&oe=64328040",
+        "bio":"By 1991, Price had become fascinated by the British breakbeat music scene when his girlFridayend, DJ Kemistry, introduced him to the pioneering jungle and drum and bass producers Dennis 'Dego' McFarlane and Mark 'Marc Mac' Clair, known as 4hero. He went on to execute some design and A&R work for 4hero's Reinforced Records label.",
+        "SCicon":"./utils/img/sc.png",
+        "FBicon":"./utils/img/fb.png",
+        "RAicon":"./utils/img/ra.png",
+        "sc":"https://soundcloud.com/goldie-official",
+        "fb":"https://www.facebook.com/Goldie",
+        "ra":"https://ra.co/dj/goldie"
+     },
+     {
+        "resident":"true",
+        "nickname":"BC",
+        "img":"https://i1.sndcdn.com/avatars-000529572222-3rszml-t500x500.jpg",
+        "bio":"DJ & Promoter since '03 based in Krakow. Ambassador of the Jagermeister brand. Owner of G-Stepz Records Label.",
+        "SCicon":"./utils/img/sc.png",
+        "IGicon":"./utils/img/ig.png",
+        "sc":"https://soundcloud.com/badcommunity",
+        "ig":"https://www.instagram.com/gangsteppaz"
+     },
+     {
+        "nickname":"Cezeten",
+        "img":"https://i1.sndcdn.com/avatars-000290810374-kl8lcb-t500x500.jpg",
+        "bio":"A member of Przepływ crew which is mostly associated with techno aesthetics. However, his second musical passion is drum'n'bass and that's why we see him here...",
+        "SCicon":"./utils/img/sc.png",
+        "sc":"https://soundcloud.com/cezeten"
+     },
+     {
+        "nickname":"Shandrill",
+        "img":"https://i1.sndcdn.com/avatars-qlXCxWaF9w9cyoLz-TtGl7g-t500x500.jpg",
+        "bio":"Drum&Bass Djane and promoter based in Ostrava, Czech Republic.",
+        "SCicon":"./utils/img/sc.png",
+        "FBicon":"./utils/img/fb.png",
+        "sc":"https://soundcloud.com/shandrill",
+        "fb":"https://www.facebook.com/shandrilldnb"
+     },
+     {
+        "nickname":"David Vunk",
+        "img":"https://i1.sndcdn.com/artworks-zuMdCZnD3sQpFQFw-sbGjfw-t500x500.jpg",
+        "bio":"David Vunk is het ware beest van de havenstad en de spilfiguur achter het immer speelse Moustache Records. Op deze prima afdruk dropt hij zijn eigen aastracks en collabs naast een gemene lijst van West-Coast honcho's en synthfreaks.",
+        "SCicon":"./utils/img/sc.png",
+        "FBicon":"./utils/img/fb.png",
+        "IGicon":"./utils/img/ig.png",
+        "RAicon":"./utils/img/ra.png",
+        "sc":"https://soundcloud.com/david-vunk",
+        "fb":"https://www.facebook.com/davidvunk",
+        "ig":"https://www.instagram.com/david_vunk_moustache_records",
+        "ra":"https://ra.co/dj/davidvunk"
+     },
+     {
+        "resident":"true",
+        "nickname":"Not So Pro",
+        "img":"https://scontent-waw1-1.xx.fbcdn.net/v/t39.30808-6/214820127_4374113972620870_5673309388678396910_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=xn2hWD5I528AX_C3rJf&_nc_ht=scontent-waw1-1.xx&oh=00_AfBJKb9N8e_eXqcm4TO84Vrmj2mnSiuoP5xYj0Ms9hm_WQ&oe=64102D2E",
+        "bio":"Not So Pro known to everyone in the wider circle as Sharp. Connected to music for over 20 years. Co-founder of the 'Przepływ' collective, 8170L421TY (Bipolarity) group and Pop Up Radio - first DIY community radio. Fan of spicy food, e-sports and new technology. Currently resident and manager of Szpitalna 1 Club.",
+        "SCicon":"./utils/img/sc.png",
+        "FBicon":"./utils/img/fb.png",
+        "IGicon":"./utils/img/ig.png",
+        "sc":"https://soundcloud.com/notsopromusic",
+        "fb":"https://www.facebook.com/notsopromusic",
+        "ig":"https://www.instagram.com/notsopromusic"
+     },
+     {
+        "nickname":"D.A.V.E The Drummer",
+        "img":"https://i.discogs.com/Q5MMrzEaP8AEAz5pkQlE4nhV41HDBE7gXAdIVOos85Y/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTExNTg0/LTE1MTY3MTQyNTEt/ODEzMC5qcGVn.jpeg",
+        "bio":"D.A.V.E. The Drummer is a techno DJ and producer from the UK. He's been making electronic music since 1993 and has made dowzens of acid techno and hard techno recvords which are available on many well respected record labels.",
+        "SCicon":"./utils/img/sc.png",
+        "FBicon":"./utils/img/fb.png",
+        "RAicon":"./utils/img/ra.png",
+        "sc":"https://soundcloud.com/dave-the-drummer",
+        "fb":"https://www.facebook.com/DJDaveTheDrummer",
+        "ra":"https://ra.co/dj/davethedrummer"
+     },
+     {
+        "nickname":"FOMMA",
+        "img":"https://i1.sndcdn.com/avatars-JRVutWySxxal27dy-97EUgA-t500x500.jpg",
+        "bio":"DJ, dancer focused on raw techno, breaks and other genres of sublime electronic. Wrocław basement.",
+        "SCicon":"./utils/img/sc.png",
+        "FBicon":"./utils/img/fb.png",
+        "IGicon":"./utils/img/ig.png",
+        "sc":"https://soundcloud.com/fomma",
+        "fb":"https://www.facebook.com/fomma.dj",
+        "ig":"https://www.instagram.com/fomma____"
+     },
+     {
+        "nickname":"Eta Hox",
+        "img":"https://i1.sndcdn.com/avatars-ICn6Mz5d5qW7tj00-t8mg6w-t500x500.jpg",
+        "bio":"Silent Booking Agency ambient dealer, Techno Techyes crew member, Off Radio Kraków helmswoman",
+        "SCicon":"./utils/img/sc.png",
+        "FBicon":"./utils/img/fb.png",
+        "IGicon":"./utils/img/ig.png",
+        "sc":"https://soundcloud.com/etahox",
+        "fb":"https://www.facebook.com/etahoxmusic",
+        "ig":"https://www.instagram.com/etahox"
+     },
+     {
+        "nickname":"HiTrash",
+        "img":"https://scontent-waw1-1.xx.fbcdn.net/v/t39.30808-6/266023876_5080072672024010_6902928473973777616_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=B1CV0yLtON0AX9_EU6z&_nc_ht=scontent-waw1-1.xx&oh=00_AfAGiznaTHXzeADG18sOuaky64RpK5XKv1hEpkbA6A4Yrg&oe=641011A0",
+        "bio":"DJ, promotor oraz organizator TECHNO TECHYES - cyklu organizowanych od 2014 imprez techno w Krakowie - a prywatnie dusza-człowiek. Z krakowską sceną elektroniczną związany jest od kilkunastu lat. Prowadzi portal Elektroniczny Kraków, współorganizuje festiwal charytatywny DJland.",
+        "SCicon":"./utils/img/sc.png",
+        "FBicon":"./utils/img/fb.png",
+        "sc":"https://soundcloud.com/hitrash",
+        "fb":"https://www.facebook.com/HiTrash"
+     },
+     {
+        "nickname":"Kerri Chandler",
+        "img":"https://i.discogs.com/VpK3ZOfopZVokvSVy7WycAsHLPhhvn6fXdTsqGqmZb4/rs:fit/g:sm/q:90/h:588/w:588/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTU5LTE0/MDU3NjkyNTQtNTk5/OS5qcGVn.jpeg",
+        "bio":"Ten typiarz z New Jersey roznosi budę na czterech magnetofonach szpulowych i rotarku. A Wy co, dalej dwa gramofony i Pionek czy Xonek? Nawet was jemu nie zal...",
+        "SCicon":"./utils/img/sc.png",
+        "FBicon":"./utils/img/fb.png",
+        "RAicon":"./utils/img/ra.png",
+        "sc":"https://soundcloud.com/kerri-chandler",
+        "fb":"https://www.facebook.com/KerriChandlerOfficial",
+        "ra":" https://ra.co/dj/kerrichandler"
+     },
+     {
+        "nickname":"Catch_22",
+        "img":"https://i1.sndcdn.com/avatars-Gr7pyaLyMjqI8wyz-Fpz9mQ-t500x500.jpg",
+        "bio":"'Keep It Low' gang member, too lazy and busy to update his bio after covid.",
+        "SCicon":"./utils/img/sc.png",
+        "FBicon":"./utils/img/fb.png",
+        "IGicon":"./utils/img/ig.png",
+        "sc":"https://soundcloud.com/catch_22_silesia",
+        "fb":"https://www.facebook.com/catch22brzezinsky",
+        "ig":"https://www.instagram.com/catch_22_holzwege"
+     },
+     {
+        "nickname":"Eduardo Smetana",
+        "img":"https://i1.sndcdn.com/avatars-gPXerzh2MBbJdhyT-i3O8Cw-t500x500.jpg",
+        "bio":"La fille qui ne dort pas...",
+        "SCicon":"./utils/img/sc.png",
+        "FBicon":"./utils/img/fb.png",
+        "IGicon":"./utils/img/ig.png",
+        "sc":"https://soundcloud.com/eduardosmetana",
+        "fb":"https://www.facebook.com/profile.php?id=100055390487779",
+        "ig":"https://www.instagram.com/eduardo_smetana"
+     },
+     {
+        "nickname":"G-Sound",
+        "img":"https://thumbnailer.mixcloud.com/unsafe/320x320/profile/e/f/a/7/049a-3547-4791-84b9-a5edd1a0aed8",
+        "bio":"Zjadł zęby na łódzkiej scenie, ale mu odrosły. Gra techno acz 130 BPM to dla niego 'szybko'. Warto posłuchać...",
+        "FBicon":"./utils/img/fb.png",
+        "fb":"https://www.facebook.com/GsoundPL"
+     },
+     {
+        "nickname":"Ultra",
+        "img":"https://i1.sndcdn.com/avatars-psyCwoFJ4z3vgJHo-KsLNLw-t500x500.jpg",
+        "bio":"Nie była pierwszą osobą w Polsce, która wzięła sobie ksywkę z 'Mechanicznej Pomarańczy' Anthony'ego Burgessa acz z pewnością dobrze jej idzie kariera ku zazdrości pewnego kolegi, który był pierwszy, a nawet gra podobną muzykę. Prowadzi ona nawet pasmo 'Horror Show' w Radiu Kapitał.",
+        "SCicon":"./utils/img/sc.png",
+        "FBicon":"./utils/img/fb.png",
+        "IGicon":"./utils/img/ig.png",
+        "sc":"https://soundcloud.com/ultrapaulina2",
+        "fb":"https://www.facebook.com/ultrapaulina",
+        "ig":"https://www.instagram.com/ultra_hunter"
+     },
+     {
+        "resident":"true",
+        "nickname":"Outta_8",
+        "img":"https://i1.sndcdn.com/avatars-000331012639-l87of0-t500x500.jpg",
+        "bio":"from her to eternity // 8 // techno / rave / electro / EBM / queer / also OUR BELOVED RESIDENT",
+        "SCicon":"./utils/img/sc.png",
+        "FBicon":"./utils/img/fb.png",
+        "sc":"https://soundcloud.com/outta_8",
+        "fb":"https://www.facebook.com/outta8"
+     },
+     {
+        "resident":"true",
+        "nickname":"KOWA",
+        "img":"https://i1.sndcdn.com/avatars-raohQxJmeyNZyOWN-X6vKkA-t500x500.jpg",
+        "bio":"Gabriel to rezydent i współmenadzer naszego klubu. Czasami widzi świat w 2D acz jego techno zawsze jest w 4D. Urodził się w Rzymie na Piazza di Cavalli. Wraz z Ultraviolentem i Dmitrym Kuznetsovem tworzą Makedonski Monastyr.",
+        "SCicon":"./utils/img/sc.png",
+        "FBicon":"./utils/img/fb.png",
+        "IGicon":"./utils/img/ig.png",
+        "sc":"https://soundcloud.com/kowaofficial",
+        "fb":"https://www.facebook.com/KOWAofc",
+        "ig":"https://www.instagram.com/kowa.wav"
+     },
+     {
+        "resident":"true",
+        "nickname":"Eye G",
+        "img":"https://oramics.pl/wp-content/uploads/2023/03/Eye-G.jpg",
+        "bio":"Magdalena to kolejna nasza rezydentka, współmendazerka, graficzka i kobieta renesansu. Preferuje klasik techno. Przypadkiem pochodzi z Kóz koło Bielska-Białej, największej wsi w Polsce (ok. 12k mieszkańców).",
+        "SCicon":"./utils/img/sc.png",
+        "IGicon":"./utils/img/ig.png",
+        "sc":"https://soundcloud.com/szpitalna1/szpitalna-1-podcast-eye-g",
+        "ig":"https://www.instagram.com/eye_g_"
+     },
+     {
+        "resident":"true",
+        "nickname":"Dmitry Kuznetsov",
+        "img":"https://i1.sndcdn.com/avatars-UQmRpNMj9IFdqcIr-bK0zGw-t500x500.jpg",
+        "bio":"Kolejny Makedonski kentawr, który juz dłuzszą chwilkę temu przybył do nas z Kijowa. Równiez rezydent jak i barman w naszym klubie.",
+        "SCicon":"./utils/img/sc.png",
+        "IGicon":"./utils/img/ig.png",
+        "sc":"https://soundcloud.com/dmitrykuznetsov",
+        "ig":"https://www.instagram.com/dmitry_kuznetsov_dj"
+     },
+     {
+        "nickname":"CELESTIAL TRAX",
+        "img":"https://i.discogs.com/WX1ow0KHklJpYjqXKaAF1bRdWi4geQMbJQOKORaNp-g/rs:fit/g:sm/q:90/h:399/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTQwNjQ5/ODctMTQyNzExNTc1/NC00MjI2LmpwZWc.jpeg",
+        "bio":"An unexpected settler in the desert of New York City that still practices true aether, serpent power and plant worship",
+        "SCicon":"./utils/img/sc.png",
+        "FBicon":"./utils/img/fb.png",
+        "RAicon":"./utils/img/ra.png",
+        "sc":"https://soundcloud.com/celestial-trax",
+        "fb":"https://www.facebook.com/celestialtrax",
+        "ra":"https://ra.co/dj/celestialtrax"
+     },
+     {
+        "nickname":"Dtekk",
+        "img":"https://scontent-waw1-1.xx.fbcdn.net/v/t39.30808-6/326228398_746492337058936_8457607830117730774_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=a78dN2GPf5EAX__3uQo&_nc_ht=scontent-waw1-1.xx&oh=00_AfCmx6GdzbORbR8cHBgmkIWEq-KAv8bHeSmsQD980MZlMw&oe=6414DA67",
+        "bio":"Człowiek instytucja stojący za chociazby Up To Date Festiwal. Uwielbia winyle i swojego Lexusa, którym buja się po całej Polsce. Autor słynnego cyklu w periodyku Vice pt. 'Pozdro Techno Stories' gdzie opisywał bardzo ciekawe historie jakie przydarzały mu się w czasie grania.",
+        "SCicon":"./utils/img/sc.png",
+        "FBicon":"./utils/img/fb.png",
+        "RAicon":"./utils/img/ra.png",
+        "sc":"https://soundcloud.com/dtekk",
+        "fb":"https://www.facebook.com/dtekkPL",
+        "ra":"https://ra.co/dj/dtekk-pl"
+     },
+     {
+        "nickname":"We Will Fail",
+        "img":"https://oramics.pl/wp-content/uploads/2023/03/We-Will-Fail.jpg",
+        "bio":"Warsaw-based producer of experimental electronic music bordering on techno and idm. Only available live.",
+        "SCicon":"./utils/img/sc.png",
+        "IGicon":"./utils/img/ig.png",
+        "sc":"https://soundcloud.com/wewillfail",
+        "ig":"https://www.instagram.com/wewillfail"
+     },
+     {
+        "nickname":"Piotr Cisak",
+        "img":"https://i1.sndcdn.com/avatars-STBJXWnYpRRuayZi-O8WVzw-t500x500.jpg",
+        "bio":"Miał Jeffa Millsa na słuchawkach juz w szóstej klasie podstawówki. Gardzi tzw. 'pendrive DJs'. W przeciwieństwie do technomułów zajmuje się ambitną muzyką eksperymentalną.",
+        "SCicon":"./utils/img/sc.png",
+        "sc":"https://soundcloud.com/piotrcisak"
+     }
+
+]
