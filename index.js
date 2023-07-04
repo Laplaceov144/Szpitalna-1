@@ -41,7 +41,7 @@ const displayEvents = (item) => {
     return `<div class="single-event">
               <h4 class="event-date">${weekday} ${day}.${month}</h4>
               <h2>${title}</h2>
-              <a class="arrow-anchors" href="single-event.html?id=${id}" target="_blank">see more ></a>
+              <a class="arrow-anchors" href="single-event.html?id=${id}">see more ></a>
             </div>`;
       }).join('');
     container.innerHTML = `<div class="events-container">
@@ -54,57 +54,28 @@ const clearEvents = () => {
   container.innerHTML = '';
 };
 
+// Load the remaining events
+let remaining;
+const fetchRest = (calendar) => {
+  remaining = calendar.filter((event) => {
+      return event.month == month;
+    });
+  return remaining;
+}
 
-// Hall of fame search engine
-// hall.addEventListener('click', function(){
-//   hall.classList.toggle('hidden');
-//   form.classList.toggle('hidden');
-//   if(form.classList.contains('hidden')) {
-//     start();
-//   }
-// });
+// Place the dynamic HTML for the rest of the events
+const displayRest = (arr) => {
+  const restInfo = arr.map((item) => {
+    return `<div class="single-event">
+              <h4 class="event-date">${item.weekday} ${item.day}.${item.month}</h4>
+              <h2>${item.title}</h2>
+              <a class="see-more arrow-anchors" href="single-event.html?id=${item.id}">
+              see more ></a>
+            </div>`;
+  }).join(' ');
+  container.innerHTML = `${restInfo}`;
 
-// const hallOfFame = (arr) => {
-//   const lineups = arr.map((item) => {
-//     return item.lineup;
-//   });
-//   const hallOfFame = lineups.flat(1).filter((item) => {
-//     return item.hallOfFame === 'true';
-//   });
-//   form.addEventListener('keyup', () => {
-//   const inputValue = searchInput.value;
-//     let filteredArtists = hallOfFame.filter((item) => {
-//       return item.nickname.toLowerCase().includes(inputValue);
-//       });
-//     displayArtists(filteredArtists);
-//   });
-// }
-
-
-// const displayArtists = (artists) => {
-//   const artistsList = artists.map((item) => {
-
-//   return `<li><a class="artist-img" href="${item.img}" target="_blank"><img src="${item.img}"></a>
-//   <span class="hall-nickname">${item.nickname}</span>
-//   <input class="onclick" type="radio" name="test" value="${item}">
-//   <div class="dropdown">
-//   <p class="small-bio">${item.bio}</p>
-//   <div class="links">
-//   <a target="_blank" class="link" href="${item.sc}"><img class="icon"  src="${item.SCicon}" 
-//   alt="" onerror='this.remove()'></a>
-//   <a target="_blank" class="link" href="${item.fb}"><img class="fb-icon"  src="${item.FBicon}" 
-//   alt="" onerror='this.remove()'></a>
-//   <a target="_blank" class="link" href="${item.ig}"><img class="icon"  src="${item.IGicon}" 
-//   alt="" onerror='this.remove()'></a>
-//   <a target="_blank" class="link" href="${item.ra}"><img class="icon"  src="${item.RAicon}" 
-//   alt="" onerror='this.remove()'></a>
-//   </div>
-//   </div>
-//   </li>`;
-//   }).join(' ');
-
-//   container.innerHTML = `<ul class="hall-results">${artistsList}</ul>`; 
-// };
+};
 
 
 // The actual final execution of...everything here
@@ -113,7 +84,8 @@ const start = async () => {
 data = await fetchEvents();
 loadEvents.addEventListener('click', function(){
     clearEvents();
-    displayEvents(data);
+    const remaining = fetchRest(data);
+    displayRest(remaining);
     loadEvents.style.display = 'none';
 });
 const upcomingFour = fetchUpcomingFour(data);
