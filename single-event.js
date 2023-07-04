@@ -54,9 +54,9 @@ const displayEvent = async (event) => {
     return lineup.includes(item.nickname);
   });
   const artistsList = currentArtists.map((item) => {
-    return `<div class="single-artist"><h4>${item.nickname}</h4>
+    return `<div class="single-artist"><h4 class="artist-info">${item.nickname}</h4>
             <div class="links">
-            <a target="_blank" class="link" href="${item.sc}"><img class="icon"  src="${item.SCicon}" 
+            <a target="_blank" class="link" href="${item.sc}"><img class="icon sc-icon"  src="${item.SCicon}" 
             alt="" onerror='this.remove()'></a>
             <a target="_blank" class="link" href="${item.fb}"><img class="icon fb-icon"  src="${item.FBicon}" 
             alt="" onerror='this.remove()'></a>
@@ -74,8 +74,8 @@ const displayEvent = async (event) => {
         <div class="event-info">
         <a class="arrow-anchors back" href="index.html">< back</a>
           <section class="basic-info">
-          <h4 class="event-date">${weekday} ${day}.${month}</h4>
-          <p>${title}</p>
+          <h4 class="single-event-date">${weekday} ${day}.${month}</h4>
+          <p class="event-title">${title}</p>
           </section>
           <img class="inner-banner" src="${event.banner}">
            
@@ -85,32 +85,7 @@ const displayEvent = async (event) => {
         </div>`;
 };
 
-// const fetchRemainingEight = async (calendar) => {
-//   const thisEvent = await fetchEvent();
-//   const thisEventID = thisEvent.id;
-//   const remaining = calendar.filter((event) => {
-//     return event.id !== thisEventID;
-//   });
-//   const remainingEight = remaining.splice(0,8);
-//   return remainingEight;
-// }
 
-// const displayEvents = (item) => {
-//   const eventsList = item.map((event) => {
-//   const weekday = event.weekday;
-//   const month = event.month;
-//   const day = event.day;
-//   const title = event.title;
-//   const id = event.id; 
-//   return `<div class="single-event">
-//             <h4 class="event-date">${weekday} ${day}.${month}</h4>
-//             <h2>${title}</h2>
-//             <a class="arrow-anchors" href="single-event.html?id=${id}" target="_blank">see more ></a>
-//           </div>`;
-//     }).join('');
-//   restContainer.innerHTML = `<div class="events-container">
-//          ${eventsList}</div>`;
-// };
 
 
 // Inserting all of the content, defined by the dynamically added HTML, to be actually visible on the web page.
