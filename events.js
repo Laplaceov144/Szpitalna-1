@@ -2,7 +2,7 @@ const calendar = './utils/calendar.json';
 const weekendContainer = document.querySelector('.weekend-events');
 const restContainer = document.querySelector('.remaining-events');
 
-// Fetching data from database.json
+// Fetching data from calendar.json
 const fetchEvents = async () => {
     weekendContainer.innerHTML = '<div class="loading"></div>';
     try {
@@ -48,7 +48,7 @@ const displayWeekend = (arr) => {
                     <img src="${item.banner}">
                     <h4 class="event-date">${item.weekday} ${item.day}.${item.month}</h4>
                     <h2>${item.title}</h2>
-                    <a class="arrow-anchors" href="single-event.html?id=${item.id}" target="_blank">see more ></a>
+                    <a class="arrow-anchors" href="single-event.html?id=${item.id}">see more ></a>
                 </div>`
     }).join(' ');
     weekendContainer.innerHTML = `${weekendInfo}`;
@@ -57,21 +57,9 @@ const displayWeekend = (arr) => {
 // Load the remaining events
 let remaining;
 const fetchRest = (calendar) => {
-  if(weekday < 6){
-    remaining = calendar.filter((event) => {
-        return event.day <= monthDay || event.day >= monthDay + 3 && event.month == month;
-      });
-  }  
-  else if(weekday === 6){
-    remaining = calendar.filter((event) => {
-        return event.day <= monthDay - 1 || event.day >= monthDay + 2 && event.month == month;
-      });
-  } 
-  else {
-    remaining = calendar.filter((event) => {
-        return event.day <= monthDay - 2 || event.day >= monthDay + 1 && event.month == month;
-      });
-  }
+  remaining = calendar.filter((event) => {
+      return event.month >= month;
+    });
   return remaining;
 }
 
@@ -81,13 +69,14 @@ const displayRest = (arr) => {
     return `<div class="single-event">
               <h4 class="event-date">${item.weekday} ${item.day}.${item.month}</h4>
               <h2>${item.title}</h2>
-              <a class="see-more arrow-anchors" href="single-event.html?id=${item.id}" target="_blank">
+              <a class="see-more arrow-anchors" href="single-event.html?id=${item.id}">
               see more ></a>
             </div>`;
   }).join(' ');
   restContainer.innerHTML = `${restInfo}`;
 
 };
+
 
 // The major function that appends everything dynamically here actually
 let data;
