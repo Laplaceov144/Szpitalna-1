@@ -128,20 +128,23 @@ header {
   background: black;
   margin-top: -10px;
 }
-.logo {
+.logo, .events-logo, .se-logo {
   width: 200px;
 }
 .head-photo {
-  width: 1240px;
+  width: 100%;
   height: 16rem;
   margin-top: 1rem;
-  margin-left: 2px;
   object-fit: cover;
 }
 
 /* navbar */
 .navbar {
   margin-top: -100px;
+  margin-left: 532.5px;
+}
+.main-navbar {
+  margin-top: -140px;
   margin-left: 532.5px;
 }
 .navbar ul {
@@ -295,6 +298,10 @@ events subpage
   position: fixed;
   border-bottom: 1px solid #DAFF70;
   z-index: 20;
+  margin-left: -1rem;
+}
+.underline {
+  text-decoration: underline;
 }
 .this-week {
   position: absolute;
@@ -350,77 +357,146 @@ events subpage
 Hall of Fame
 ===============
 */
-/* .hall a {
-  color: white;
+
+.hall-headline {
+  color: #DAFF70;
+  margin-top: 45px;
+  margin-left: 1rem;
+  font-size: 2rem;
 }
-.input-form {
-  position: absolute;
+.hall-header {
+  height: 150px;
   margin-top: -70px;
-  margin-left: 950px;
 }
-.search-input {
-  padding: 0.5rem;
-  background: var(--grey-300);
-  border-radius: var(--borderRadius);
-  border-color: transparent;
-  letter-spacing: var(--letterSpacing);
-  margin-left: 25px;
-  width: 180px;
+.blackbar {
+  position: fixed;
+  width: 120%;
+  height: 40px;
+  background-color: black;
+  margin-top: -19px;
 }
-::placeholder {
-  color: black;
+.letter-bar {
+  position: fixed;
+  display: inline-flex;
+  margin-top: -5px;
+  margin-left: 1rem;
+   
 }
-.hidden {
-  opacity: 0;
+.letter-bar button {
+  background-color: black;
+  border: none;
+  width: 6.51rem;
 }
+.alphabetic {
+  font-family: 'Inconsolata';
+  font-size: 1.5rem;
+  color: #DAFF70;
+  background-color: black;
+  opacity: 0.8;
+  letter-spacing: 0.8rem;
+  text-decoration: underline;
+
+}
+.hall-artists {
+  margin-top: 65px;
+}
+.hall-artists  {
+  color: #DAFF70;
+}
+
 .hall-results {
-  flex-direction: column;
-  column-count: 3;
+  display: grid;
+  grid-template-columns: 20.2rem 20.2rem 20.2rem 20.2rem;
+  grid-template-rows: 21rem 21rem 21rem;
+  column-count: 4;
+  margin-left: 1rem;
+  transform: translateY(100px);
 }
+.artist-img  {
+  width: 250px;
+  height: 270px;
+  object-fit: cover;
+}
+.hall-results li:hover > img {
+  transform: scale(1.05);
+  opacity: 0.1;
+  transition: 550ms ease;
+} 
 .hall-results li {
   max-height: 500px;
   margin-top: 50px;
   margin-bottom: 130px;
   display: inline-block;
+  border-radius: 5%;
 }
-.dropdown {
-  opacity: 0;
+.flipside {
+  display: none;
+  font-family: 'Inconsolata';
+  color: #DAFF70;
+  position: relative;
+  top: 0px;
 }
 .hall-nickname {
   display: inline-block;
   font-size: 1.3rem;
   font-style: italic;
-  border: 2px solid rgb(168, 139, 102);
-  padding: 10px;
+  padding: 5px;
   border-radius: 10%;
+  opacity: 1;
+}
+.small-bio {
+  font-size: 0.8rem;
+  text-transform: none;
+  width: 220px;
+  margin-left: 0.4rem;
 }
 .hall-results li .small-bio {
   padding: 1px;
+  opacity: 1;
 }
 
-.hall-results .links {
+.hall-results {
   margin-top: 35px;
 }
-.link {
-  opacity: 0.5;
+/* .link {
+  opacity: 0;
+} */
+
+.links {
+  margin-top: -70px;
+  flex-direction: row;
+  justify-content: space-between;
 }
 .link:hover {
   opacity: 1;
   transition: 550ms ease;
 }
+.fb-hall {
+  transform: translateY(-200px);
+}
 input.onclick {
+  position: relative;
   margin-top: 20px;
   margin-left: -100px;
-  transform: translateX(15px) translateY(-5px) scale(4) rotateZ(-10deg) skew(70deg);
+  transform: translateX(-40px) translateY(-130px) scale(20);
   opacity: 0;
 }
 input.onclick:hover {
   cursor: pointer;
 }
-.onclick:checked ~ .dropdown {
-  opacity: 1;
+input.onclick:checked ~ .flipside {
+  display: inline-block;
   transition: 550ms ease;
-}  */
+  transform: translateY(-280px);
+} 
+.line-info {
+  display: inline-flex;
+}
+.hall-links {
+  transform: translateX(1rem) translateY(0.6rem);
+}
+
+
 
 
 
@@ -525,6 +601,10 @@ single event subpage
   width: 1.5rem;
   object-fit: contain;
 }
+.sc-icon {
+  width: 1.6rem;
+  object-fit: contain;
+}
 .fb-icon {
   width: 3.5rem;
   object-fit: contain;
@@ -536,7 +616,7 @@ single event subpage
 }
 .ra-icon {
   width: 2rem;
-  transform: translateY(-35px);
+  transform: translateX(0.6rem) translateY(-35px);
 }
 .tax {
   color: #DAFF70;
@@ -544,7 +624,7 @@ single event subpage
 
 
 /* Residents */
-.residents-nav .btn {
+/* .residents-nav .btn {
   padding: 1.7rem 10rem;
 }
 .residents-nav .scroll {
@@ -569,12 +649,12 @@ single event subpage
 .residents-container .icon {
   width: 6%;
   margin-top: 35px;
-}
+} */
 
 
 
 /* Crew */
-.crew-nav {
+/* .crew-nav {
   margin-top: -1rem;
 }
 .crew-nav .btn {
@@ -620,9 +700,13 @@ single event subpage
 }
 .crew-list a:hover {
   color: var(--primary-400);
+} */
+
+/* Temporary class */
+
+.temp {
+  color: white;
 }
-
-
 
 @media screen and (min-width: 768px) {
   .event-wrapper {
@@ -632,24 +716,44 @@ single event subpage
   }
   
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 912px) {
+  header {
+    position: fixed;
+  }
   .logo {
     width: 4.5%;
+    margin-top: 2rem;
   }
+  .events-logo {
+    width: 4.5%;
+    margin-top: 1.1rem;
+    margin-left: 1rem;
+  }
+  .blackbar {
+    width: 100%;
+    height: 3rem;
+    margin-top: 4rem;
+  } 
   .head-photo {
-    width: 30%;
+    width: 40%;
     margin-top: 50px;
-    margin-left: -1rem;
+    margin-left: -10rem;
     border-radius: 1%;
+    transform: scale(0.7);
   }
-  
+  .main-navbar ul {
+    display: inline-flex;
+    width: 50%;
+    height: 10px;
+    margin-left: -24rem;
+    margin-top: 50px;
+  }
   .navbar ul {
     display: inline-flex;
     width: 50%;
     height: 10px;
     margin-left: -28rem;
     margin-top: 50px;
-    background: #1E1E1E;
   }
   .navbar li {
     margin: 0.01rem;
@@ -660,16 +764,20 @@ single event subpage
     margin: 0.2rem;
     padding: 1rem;
     width: 100%;
-
+    background: #1E1E1E;
   }
   .events-header {
-    height: 50px;
+    height: 100px;
+    position: fixed;
   }
   .this-week {
-    margin-top: 60px;
+    margin-top: 120px;
   }
   .events-navbar .btn {
-    margin: 0.1rem;
+    margin-top: -2rem;
+    margin-left: 4rem;
+    padding-right: 0.02rem;
+    padding-left: 0.02rem;
   }
   .weekend-events .single-event {
     width: 210px;
@@ -677,9 +785,18 @@ single event subpage
     margin-top: -130px;
     margin-left: 10px;
   }
+  .weekend-events {
+    transform: translateX(-1.2rem) translateY(2rem);
+  }
+
+ 
   .weekend-night {
     flex-direction: row;
-    transform: scale(0.8);
+    transform: scale(0.7);
+    margin-left: -2rem;
+  }
+  .weekend-night:nth-of-type(2) {
+    transform: translateX(-4.5rem) scale(0.7);
   }
    .weekend-night img {
     width: 210px;
@@ -687,7 +804,7 @@ single event subpage
   } 
   .remaining-events {
     display: grid;
-    grid-template-columns: 200px 350px;
+    grid-template-columns: 1rem;
     margin-left: 6px;
   }
   .remaining-events .single-event {
@@ -735,6 +852,23 @@ single event subpage
     font-size: 100%;
     width: 25rem;
   }
+  .se-logo {
+    width: 4.5%;
+    margin-top: 1.1rem;
+    margin-left: 1rem;
+  }
+  a.back {
+    transform: translateX(-2rem) translateY(1rem);
+  }
+  
+  h4.single-event-date {
+    font-size: 1.2rem;
+    transform: translateX(-2rem);
+  }
+  p.event-title {
+    font-size: 1.5rem;
+    transform: translateX(-2rem);
+  }
   .lineup {
     flex-direction: column;
     column-count: 1;
@@ -742,6 +876,16 @@ single event subpage
   }
   .lineup li {
     display: inline-block;
+  }
+  .inner-banner {
+    margin-top: -2rem;
+    width: 114.5%;
+  }
+  .single-artist {
+    transform: translateX(-2rem) translateY(3rem);
+  }
+  h4.artist-info {
+    font-size: 1.2rem;
   }
  
   
