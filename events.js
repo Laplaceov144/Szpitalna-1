@@ -14,7 +14,7 @@ const fetchEvents = async () => {
     }
 };
 
-const date = new Date();
+const date = new Date(2023, 5, 15); 
 const monthDay = date.getDate();
 const month = date.getMonth() + 1;
 const weekday = date.getDay();
